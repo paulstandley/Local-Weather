@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    background-color: rgba(90, 87, 85, 0.16);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    font-style: oblique;
+    color: rgba(15, 15, 24, 0.788);
+}
+
+h2 {
+    text-align: right;
+    padding-right: 2.0rem;
+}
+
+h3 {
+    text-align: right;
+    color: rgba(37, 27, 100,0.9);
+}
+
+img {
+    max-width: 400px;
+}
+
+button {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(189, 177, 172, 0.472);
+    color: rgba(72, 72, 73, 0.541);
+    border-radius: 3px;
+}
+
+button:hover {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(99, 99, 99, 0.678);
+    color: rgba(219, 216, 216, 0.521);
+    border-radius: 3px;
+    box-shadow: 0.3rem 0.3rem;     
+}
+
+.full_body {
+    padding-bottom: 12rem;
+}
+
+.template_body {
+    background-color: rgba(209, 198, 187, 0.178);
+    padding-bottom: 4rem;
+}
+
+.weatherClass {
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.178);
+    font-size: 1.8rem;
+    padding-bottom: 10rem;
+}
+
+#imgIcon {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
